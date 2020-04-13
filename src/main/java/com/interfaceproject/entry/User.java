@@ -1,7 +1,9 @@
 package com.interfaceproject.entry;
 
 import lombok.Data;
+import lombok.extern.java.Log;
 
+@Log
 @Data //引入lombok
 public class User {
     private Integer id;
