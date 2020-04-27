@@ -35,7 +35,7 @@
 
     - 4.10使用httpclient调moco的接口
 - 以上示例代码在src.resource.mock.sample包下
-    - 运行命令
+    - 运行命令示例
 ```
 java -jar moco-runner-0.11.0-standalone.jar http -p 8081 -c have-Paramatersget.json
 
