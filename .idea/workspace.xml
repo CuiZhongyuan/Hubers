@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8772553-6c0e-45c2-b14b-c6bcdf2cea4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/noParamatersget3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/have-paramaters-get.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/have-paramaters-post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/json-paramaters-havecookies-post-2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/json-paramaters-havecookies-post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get-responsehavecookies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-post.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/noparamaters-havecookies-get.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/entry/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interfaceproject/entry/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/interface-framework.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mock/userLogin.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testNG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/noParamatersget1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/noParamatersget3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get-302.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,18 +94,18 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582855871398" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mock/sample" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\00_3IdeaProjects\interface-test01\src\main\resources\mock\sample" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.interfacetest.testng.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\00_3IdeaProjects\interface-test01\src\main\resources\mock\sample" />
@@ -119,8 +121,8 @@
       <recent name="interfacetest.listener" />
       <recent name="com.interfacetest.service" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.interfacetest.testng.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\00_3IdeaProjects\interface-test01\src\main\resources\mock\sample" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -422,7 +424,15 @@
       <workItem from="1586311312401" duration="5558000" />
       <workItem from="1586394183671" duration="3413000" />
       <workItem from="1586480362564" duration="906000" />
-      <workItem from="1586741924543" duration="304000" />
+      <workItem from="1586741924543" duration="712000" />
+      <workItem from="1586743281560" duration="2098000" />
+      <workItem from="1586942247998" duration="484000" />
+      <workItem from="1587018556386" duration="609000" />
+      <workItem from="1587690822681" duration="425000" />
+      <workItem from="1587691536207" duration="29000" />
+      <workItem from="1587691654556" duration="598000" />
+      <workItem from="1587704900140" duration="1204000" />
+      <workItem from="1587976274003" duration="3541000" />
     </task>
     <task id="LOCAL-00001" summary="查询示例">
       <created>1583901627795</created>
@@ -438,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585880370748</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="接口测试-报告模板生成">
+      <created>1586742285897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586742285897</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,62 +507,62 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="473" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586742284994" />
-    <state x="970" y="282" key="FileChooserDialogImpl" timestamp="1586481265919">
+    <state x="970" y="282" key="FileChooserDialogImpl" timestamp="1587690855976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="970" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586481265919" />
-    <state width="1876" height="240" key="GridCell.Tab.0.bottom" timestamp="1586742186755">
+    <state x="970" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587690855976" />
+    <state width="1876" height="332" key="GridCell.Tab.0.bottom" timestamp="1586771768570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="240" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586742186755" />
-    <state width="1876" height="240" key="GridCell.Tab.0.center" timestamp="1586742186755">
+    <state width="1876" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586771768570" />
+    <state width="1876" height="332" key="GridCell.Tab.0.center" timestamp="1586771768570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="240" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586742186755" />
-    <state width="1876" height="240" key="GridCell.Tab.0.left" timestamp="1586742186755">
+    <state width="1876" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586771768570" />
+    <state width="1876" height="332" key="GridCell.Tab.0.left" timestamp="1586771768570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="240" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586742186755" />
-    <state width="1876" height="240" key="GridCell.Tab.0.right" timestamp="1586742186755">
+    <state width="1876" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586771768570" />
+    <state width="1876" height="332" key="GridCell.Tab.0.right" timestamp="1586771768570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="240" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586742186755" />
-    <state width="1876" height="211" key="GridCell.Tab.1.bottom" timestamp="1586742051267">
+    <state width="1876" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586771768570" />
+    <state width="1876" height="211" key="GridCell.Tab.1.bottom" timestamp="1586742636448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586742051267" />
-    <state width="1876" height="211" key="GridCell.Tab.1.center" timestamp="1586742051266">
+    <state width="1876" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
+    <state width="1876" height="211" key="GridCell.Tab.1.center" timestamp="1586742636448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586742051266" />
-    <state width="1876" height="211" key="GridCell.Tab.1.left" timestamp="1586742051266">
+    <state width="1876" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
+    <state width="1876" height="211" key="GridCell.Tab.1.left" timestamp="1586742636448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586742051266" />
-    <state width="1876" height="211" key="GridCell.Tab.1.right" timestamp="1586742051266">
+    <state width="1876" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
+    <state width="1876" height="211" key="GridCell.Tab.1.right" timestamp="1586742636448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586742051266" />
-    <state width="1876" height="211" key="GridCell.Tab.2.bottom" timestamp="1586742051267">
+    <state width="1876" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
+    <state width="1876" height="211" key="GridCell.Tab.2.bottom" timestamp="1586742636449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586742051267" />
-    <state width="1876" height="211" key="GridCell.Tab.2.center" timestamp="1586742051267">
+    <state width="1876" height="211" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636449" />
+    <state width="1876" height="211" key="GridCell.Tab.2.center" timestamp="1586742636448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586742051267" />
-    <state width="1876" height="211" key="GridCell.Tab.2.left" timestamp="1586742051267">
+    <state width="1876" height="211" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
+    <state width="1876" height="211" key="GridCell.Tab.2.left" timestamp="1586742636448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586742051267" />
-    <state width="1876" height="211" key="GridCell.Tab.2.right" timestamp="1586742051267">
+    <state width="1876" height="211" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
+    <state width="1876" height="211" key="GridCell.Tab.2.right" timestamp="1586742636449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586742051267" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1586311711721">
+    <state width="1876" height="211" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636449" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1586743317620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586311711721" />
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586743317620" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1586742294822">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -554,10 +571,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586481249890" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586230182393">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587977749452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586230182393" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587977749452" />
   </component>
   <component name="masterDetails">
     <states>
