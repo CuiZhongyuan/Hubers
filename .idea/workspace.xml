@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8772553-6c0e-45c2-b14b-c6bcdf2cea4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/have-paramaters-get.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/have-paramaters-post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/json-paramaters-havecookies-post-2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/json-paramaters-havecookies-post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get-responsehavecookies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/noparamaters-havecookies-get.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/noParamatersget1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/noParamatersget3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get-302.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -432,7 +421,7 @@
       <workItem from="1587691536207" duration="29000" />
       <workItem from="1587691654556" duration="598000" />
       <workItem from="1587704900140" duration="1204000" />
-      <workItem from="1587976274003" duration="3541000" />
+      <workItem from="1587976274003" duration="4205000" />
     </task>
     <task id="LOCAL-00001" summary="查询示例">
       <created>1583901627795</created>
@@ -455,7 +444,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586742285897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加moco类型说明">
+      <created>1587979842012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587979842012</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改示例">
+      <created>1587979958757</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587979958757</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +495,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="查询示例" />
     <MESSAGE value="接口测试-报告模板生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="接口测试-报告模板生成" />
+    <MESSAGE value="增加moco类型说明" />
+    <MESSAGE value="修改示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改示例" />
   </component>
   <component name="WindowStateProjectService">
     <state x="670" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586231263803">
@@ -503,10 +508,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585878904454" />
-    <state x="473" y="109" key="CommitChangelistDialog2" timestamp="1587979841050">
+    <state x="473" y="109" key="CommitChangelistDialog2" timestamp="1587979958174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="473" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587979841050" />
+    <state x="473" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587979958174" />
     <state x="970" y="282" key="FileChooserDialogImpl" timestamp="1587690855976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -563,10 +568,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586743317620" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587979855982">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587979964926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587979855982" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587979964926" />
     <state x="752" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586481249890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
