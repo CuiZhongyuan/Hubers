@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8772553-6c0e-45c2-b14b-c6bcdf2cea4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/HubersPlatformApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/controller/CaseApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/controller/CasesGroupAPIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/CaseApiDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/CaseApiDaoCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/CasesGroupApiDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/impl/CaseApiDaoCustomImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dto/BaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dto/CaseApiDataDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/entity/CaseApiData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/entity/CaseApiData_.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/entity/CasesGroupApiData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/CaseApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/CasesGroupApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/impl/CaseApiServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/impl/CasesGroupGroupApiServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/RestTemplateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/SpringContextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/hashmaptraverse/IteratorHashMapEntrySet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/web/PageInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/controller/TestNgOrdrTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/entry/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/listener/ExtentTestNGIReporterListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/mapper/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/testng/InterfacesList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/have-paramaters-get.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/have-paramaters-post.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/json-paramaters-havecookies-post-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/json-paramaters-havecookies-post.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get-302.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get-responsehavecookies.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-post.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/noparamaters-havecookies-get.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testNG.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,15 +86,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.interfacetest.testng.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\00_3IdeaProjects\interface-test01\src\main\resources\mock\sample" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\00_3IdeaProjects\gitHubers\Hubers\src\main\java" />
+      <recent name="F:\00_3IdeaProjects\gitHubers\Hubers\src\main\resources" />
+      <recent name="F:\00_3IdeaProjects\gitHubers\Hubers\src\test" />
       <recent name="F:\00_3IdeaProjects\interface-test01\src\main\resources\mock\sample" />
       <recent name="F:\00_3IdeaProjects\interface-test01\src\main\java\com\interfaceproject\listener" />
-      <recent name="D:\IdeaProjects\interface-test01\src\main\resources" />
-      <recent name="D:\IdeaProjects\interface-test01\src\main\java\com\interfaceproject\listener" />
-      <recent name="D:\IdeaProjects\interface-test01\src\main\java\com\interfaceproject" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.interfaceproject.controller" />
@@ -150,8 +103,8 @@
       <recent name="interfacetest.listener" />
       <recent name="com.interfacetest.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\00_3IdeaProjects\interface-test01\src\main\resources\mock\sample" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.interfacetest.testng.service" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -470,7 +423,7 @@
       <workItem from="1587691654556" duration="598000" />
       <workItem from="1587704900140" duration="1204000" />
       <workItem from="1587976274003" duration="4205000" />
-      <workItem from="1595223337981" duration="324000" />
+      <workItem from="1595223337981" duration="884000" />
     </task>
     <task id="LOCAL-00001" summary="查询示例">
       <created>1583901627795</created>
@@ -556,54 +509,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="970" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587690855976" />
-    <state width="1876" height="332" key="GridCell.Tab.0.bottom" timestamp="1586771768570">
+    <state width="1876" height="184" key="GridCell.Tab.0.bottom" timestamp="1595224175329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="332" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586771768570" />
-    <state width="1876" height="332" key="GridCell.Tab.0.center" timestamp="1586771768570">
+    <state width="1876" height="184" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175329" />
+    <state width="1876" height="184" key="GridCell.Tab.0.center" timestamp="1595224175329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="332" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586771768570" />
-    <state width="1876" height="332" key="GridCell.Tab.0.left" timestamp="1586771768570">
+    <state width="1876" height="184" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175329" />
+    <state width="1876" height="184" key="GridCell.Tab.0.left" timestamp="1595224175329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="332" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586771768570" />
-    <state width="1876" height="332" key="GridCell.Tab.0.right" timestamp="1586771768570">
+    <state width="1876" height="184" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175329" />
+    <state width="1876" height="184" key="GridCell.Tab.0.right" timestamp="1595224175329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="332" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586771768570" />
-    <state width="1876" height="211" key="GridCell.Tab.1.bottom" timestamp="1586742636448">
+    <state width="1876" height="184" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175329" />
+    <state width="1876" height="184" key="GridCell.Tab.1.bottom" timestamp="1595224175330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
-    <state width="1876" height="211" key="GridCell.Tab.1.center" timestamp="1586742636448">
+    <state width="1876" height="184" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175330" />
+    <state width="1876" height="184" key="GridCell.Tab.1.center" timestamp="1595224175330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
-    <state width="1876" height="211" key="GridCell.Tab.1.left" timestamp="1586742636448">
+    <state width="1876" height="184" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175330" />
+    <state width="1876" height="184" key="GridCell.Tab.1.left" timestamp="1595224175330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
-    <state width="1876" height="211" key="GridCell.Tab.1.right" timestamp="1586742636448">
+    <state width="1876" height="184" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175330" />
+    <state width="1876" height="184" key="GridCell.Tab.1.right" timestamp="1595224175330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
-    <state width="1876" height="211" key="GridCell.Tab.2.bottom" timestamp="1586742636449">
+    <state width="1876" height="184" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175330" />
+    <state width="1876" height="184" key="GridCell.Tab.2.bottom" timestamp="1595224175330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636449" />
-    <state width="1876" height="211" key="GridCell.Tab.2.center" timestamp="1586742636448">
+    <state width="1876" height="184" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175330" />
+    <state width="1876" height="184" key="GridCell.Tab.2.center" timestamp="1595224175330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
-    <state width="1876" height="211" key="GridCell.Tab.2.left" timestamp="1586742636448">
+    <state width="1876" height="184" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175330" />
+    <state width="1876" height="184" key="GridCell.Tab.2.left" timestamp="1595224175330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636448" />
-    <state width="1876" height="211" key="GridCell.Tab.2.right" timestamp="1586742636449">
+    <state width="1876" height="184" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175330" />
+    <state width="1876" height="184" key="GridCell.Tab.2.right" timestamp="1595224175330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="211" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636449" />
+    <state width="1876" height="184" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595224175330" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1595223360579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
