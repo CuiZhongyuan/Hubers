@@ -2,7 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8772553-6c0e-45c2-b14b-c6bcdf2cea4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/HubersPlatformApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/controller/CaseApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/controller/CasesGroupAPIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/CaseApiDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/CaseApiDaoCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/CasesGroupApiDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/impl/CaseApiDaoCustomImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dto/BaseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dto/CaseApiDataDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/entity/CaseApiData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/entity/CaseApiData_.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/entity/CasesGroupApiData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/CaseApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/CasesGroupApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/impl/CaseApiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/impl/CasesGroupGroupApiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/RestTemplateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/hashmaptraverse/IteratorHashMapEntrySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/web/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/controller/TestNgOrdrTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/entry/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/listener/ExtentTestNGIReporterListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interfaceproject/testng/InterfacesList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/have-paramaters-get.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/have-paramaters-post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/json-paramaters-havecookies-post-2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/json-paramaters-havecookies-post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get-302.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get-responsehavecookies.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-get2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/no-paramaters-post.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mock/sample/noparamaters-havecookies-get.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testNG.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +95,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="F:\00_3IdeaProjects\interface-test01\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -69,7 +110,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -83,7 +123,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582855871398" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mock/sample" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -273,7 +313,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.HubersPlatformApplication">
     <configuration name="post-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http">
       <method v="2" />
     </configuration>
@@ -289,6 +329,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.interfaceproject.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HubersPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Hubers" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hubers.HubersPlatformApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -363,6 +410,7 @@
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="TestNG.D:/IdeaProjects/interface-test01/src/main/resources/testNG.xml" />
       <item itemvalue="TestNG.InterfaceList.case1" />
+      <item itemvalue="Spring Boot.HubersPlatformApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -422,6 +470,7 @@
       <workItem from="1587691654556" duration="598000" />
       <workItem from="1587704900140" duration="1204000" />
       <workItem from="1587976274003" duration="4205000" />
+      <workItem from="1595223337981" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="查询示例">
       <created>1583901627795</created>
@@ -462,16 +511,14 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -490,6 +537,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -500,14 +548,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="修改示例" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="670" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586231263803">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="670" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1586231263803" />
-    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585878904454">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585878904454" />
     <state x="473" y="109" key="CommitChangelistDialog2" timestamp="1587979958174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -564,18 +604,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="211" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586742636449" />
-    <state x="461" y="151" key="SettingsEditor" timestamp="1586743317620">
+    <state x="461" y="151" key="SettingsEditor" timestamp="1595223360579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586743317620" />
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595223360579" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587979964926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587979964926" />
-    <state x="752" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586481249890">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="752" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586481249890" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587977749452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
