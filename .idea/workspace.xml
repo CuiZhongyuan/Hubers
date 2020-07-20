@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8772553-6c0e-45c2-b14b-c6bcdf2cea4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/initsql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database/initsql.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,7 +423,7 @@
       <workItem from="1587691654556" duration="598000" />
       <workItem from="1587704900140" duration="1204000" />
       <workItem from="1587976274003" duration="4205000" />
-      <workItem from="1595223337981" duration="884000" />
+      <workItem from="1595223337981" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="查询示例">
       <created>1583901627795</created>
@@ -460,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587979958757</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="readme">
+      <created>1595224268911</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595224268911</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,13 +505,14 @@
     <MESSAGE value="接口测试-报告模板生成" />
     <MESSAGE value="增加moco类型说明" />
     <MESSAGE value="修改示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改示例" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="473" y="109" key="CommitChangelistDialog2" timestamp="1587979958174">
+    <state x="473" y="109" key="CommitChangelistDialog2" timestamp="1595224268173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="473" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587979958174" />
+    <state x="473" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595224268173" />
     <state x="970" y="282" key="FileChooserDialogImpl" timestamp="1587690855976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -561,10 +569,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595223360579" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587979964926">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595224278246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587979964926" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595224278246" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587977749452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
