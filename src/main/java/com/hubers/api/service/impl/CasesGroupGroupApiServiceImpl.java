@@ -36,14 +36,6 @@ public class CasesGroupGroupApiServiceImpl implements CasesGroupApiService {
         return casesGroupApiDao.findAll(pageRequest);
     }
 
-    /**
-     * 新建测试分组
-     * */
-    @Override
-    public CasesGroupApiData createGroup(CasesGroupApiData casesGroupApiData) {
-        CasesGroupApiData save = casesGroupApiDao.save(casesGroupApiData);
-        return save;
-    }
     /**查询当前用例分组下的用例明细
      *
      * @return*/
@@ -74,6 +66,16 @@ public class CasesGroupGroupApiServiceImpl implements CasesGroupApiService {
     public List<CasesGroupApiData> findName(String groupName) {
         List<CasesGroupApiData> byGroupnameLike = casesGroupApiDao.findByGroupnameLike("%"+groupName+"%");
         return byGroupnameLike;
+    }
+
+
+    /**
+     * 新建测试分组
+     * */
+    @Override
+    public CasesGroupApiData createGroup(CasesGroupApiData casesGroupApiData) {
+        CasesGroupApiData save = casesGroupApiDao.save(casesGroupApiData);
+        return save;
     }
 
     @Override

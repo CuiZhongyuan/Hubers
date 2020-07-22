@@ -8,6 +8,7 @@ import java.io.Serializable;
 /**
  * @author lgl
  */
+//Serializable一个对象序列化的接口，一个类只有实现了Serializable接口，它的对象才能被序列化
 @Data
 public class BaseDTO implements Serializable {
     private static final long serialVersionUID = 1L;
