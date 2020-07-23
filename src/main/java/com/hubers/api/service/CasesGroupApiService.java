@@ -1,6 +1,7 @@
 package com.hubers.api.service;
 
-import com.hubers.api.dto.CaseApiDataDTO;
+import com.hubers.api.dto.CaseApiQueryDataDTO;
+import com.hubers.api.dto.CaseApiResDataDTO;
 import com.hubers.api.entity.CaseApiData;
 import com.hubers.api.entity.CasesGroupApiData;
 import org.springframework.data.domain.Page;
@@ -18,16 +19,16 @@ public interface CasesGroupApiService {
 
     CaseApiData create(Map<String, Object> reqMap) throws Exception;
 
-    CasesGroupApiData createGroup(CasesGroupApiData casesGroupApiData);
+    Object createGroup(CasesGroupApiData casesGroupApiData) throws Exception;
 
     CasesGroupApiData update(CasesGroupApiData casesGroupApiData);
 
     String delete(Long id);
 
-    List<CaseApiData> findCaseApiData(Long groupId);
+    List<CaseApiResDataDTO> findCaseApiData(Long groupId);
 
     List<CaseApiData> findValue(Long groupId,String value);
 
     List<CasesGroupApiData> findName(String groupName);
-    List<CaseApiData> findKey(CaseApiDataDTO caseApiDataDTO);
+    List<CaseApiData> findKey(CaseApiQueryDataDTO caseApiQueryDataDTO);
 }

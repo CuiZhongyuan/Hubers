@@ -4,7 +4,7 @@ package com.hubers.api.dao.impl;
 import cn.hutool.core.util.StrUtil;
 import com.hubers.api.dao.CaseApiDaoCustom;
 import com.hubers.api.dto.BaseDTO;
-import com.hubers.api.dto.CaseApiDataDTO;
+import com.hubers.api.dto.CaseApiQueryDataDTO;
 import com.hubers.api.entity.CaseApiData;
 import com.hubers.api.entity.CaseApiData_;
 
@@ -22,42 +22,42 @@ public class CaseApiDaoCustomImpl implements CaseApiDaoCustom {
     private EntityManager em;
 
     @Override
-    public List<CaseApiData> findKey(CaseApiDataDTO caseApiDataDTO, Boolean pageFlag, String sort, String order) {
+    public List<CaseApiData> findKey(CaseApiQueryDataDTO caseApiQueryDataDTO, Boolean pageFlag, String sort, String order) {
         CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder();
         CriteriaQuery<CaseApiData> criteriaQuery = criteriaBuilder.createQuery(CaseApiData.class);
         Root<CaseApiData> root = criteriaQuery.from(CaseApiData.class);
         criteriaQuery.select(root);
-        Predicate where = genWhereCondition(caseApiDataDTO, root, criteriaBuilder);
+        Predicate where = genWhereCondition(caseApiQueryDataDTO, root, criteriaBuilder);
         if (where != null) {
             criteriaQuery.where(where);
         }
         //排序
         TypedQuery<CaseApiData> tq = em.createQuery(criteriaQuery);
         if (pageFlag) {
-            BaseDTO.Limit limit = caseApiDataDTO.getLimit();
+            BaseDTO.Limit limit = caseApiQueryDataDTO.getLimit();
             tq.setFirstResult(limit.getStartRow()).setMaxResults(limit.getPageSize());
         }
         return tq.getResultList();
     }
 
     @Override
-    public long count(CaseApiDataDTO caseApiDataDTO) {
+    public long count(CaseApiQueryDataDTO caseApiQueryDataDTO) {
         CriteriaBuilder criteriaBuilder = em.getCriteriaBuilder();
         CriteriaQuery<Long> criteriaQuery = criteriaBuilder.createQuery(Long.class);
         Root<CaseApiData> root = criteriaQuery.from(CaseApiData.class);
         criteriaQuery.select(criteriaBuilder.count(root));
-        Predicate where = genWhereCondition(caseApiDataDTO, root, criteriaBuilder);
+        Predicate where = genWhereCondition(caseApiQueryDataDTO, root, criteriaBuilder);
         if (where != null) {
             criteriaQuery.where(where);
         }
         return em.createQuery(criteriaQuery).getSingleResult();
     }
 
-    private Predicate genWhereCondition(CaseApiDataDTO caseApiDataDTO, Root<CaseApiData> root, CriteriaBuilder
+    private Predicate genWhereCondition(CaseApiQueryDataDTO caseApiQueryDataDTO, Root<CaseApiData> root, CriteriaBuilder
             criteriaBuilder) {
         Predicate where = null;
 
-        Long groupSearch = caseApiDataDTO.getGroudId();
+        Long groupSearch = caseApiQueryDataDTO.getGroudId();
         if (null != groupSearch) {
             Path<Long> groupSearchPath = root.get(CaseApiData_.groupId);
             if (where != null) {
@@ -67,7 +67,7 @@ public class CaseApiDaoCustomImpl implements CaseApiDaoCustom {
             }
         }
 
-        String httpMethodSearch = caseApiDataDTO.getHttpMethod();
+        String httpMethodSearch = caseApiQueryDataDTO.getHttpMethod();
         if (StrUtil.isNotEmpty(httpMethodSearch)) {
             Path<String> httpMethodSearchPath = root.get(CaseApiData_.httpMethod);
             if (where != null) {
@@ -77,7 +77,7 @@ public class CaseApiDaoCustomImpl implements CaseApiDaoCustom {
             }
         }
 
-        String urlSearch = caseApiDataDTO.getUrl();
+        String urlSearch = caseApiQueryDataDTO.getUrl();
         if (StrUtil.isNotEmpty(urlSearch)) {
             Path<String> urlSearchPath = root.get(CaseApiData_.url);
             if (where != null) {
