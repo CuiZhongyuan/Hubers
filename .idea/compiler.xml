@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="interface-framework" />
+        <module name="Interface-AutoTest" />
+        <module name="starthubers" />
         <module name="Hubers" />
         <module name="starthubers" />
         <module name="test" />
-        <module name="Interface-AutoTest" />
       </profile>
     </annotationProcessing>
   </component>

@@ -51,6 +51,14 @@ spring:
     properties:
       hibernate:
         enable_lazy_load_no_trans: true
+  mail:
+    host: "smtp.qq.com"
+    username: "365450906@qq.com"
+    password: "nrnojxnndlngbjea"
+test:
+  mail:
+    send: xxx@qq.com
+    cc: xxx@qq.com
 
 #定时任务配置
 #'index.job': '0 0 0 * * ?'

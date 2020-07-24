@@ -1,6 +1,6 @@
 package com.hubers.api.dao;
 
-import com.hubers.api.dto.CaseApiDataDTO;
+import com.hubers.api.dto.CaseApiQueryDataDTO;
 import com.hubers.api.entity.CaseApiData;
 
 import java.util.List;
@@ -8,6 +8,6 @@ import java.util.List;
 
 public interface CaseApiDaoCustom {
 
-    List<CaseApiData> findKey(CaseApiDataDTO caseApiDataDTO, Boolean pageFlag, String sort, String order);
-    long count(CaseApiDataDTO caseApiDataDTO);
+    List<CaseApiData> findKey(CaseApiQueryDataDTO caseApiQueryDataDTO, Boolean pageFlag, String sort, String order);
+    long count(CaseApiQueryDataDTO caseApiQueryDataDTO);
 }

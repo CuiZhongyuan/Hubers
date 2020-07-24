@@ -1,6 +1,7 @@
 package com.hubers.api.controller;
 
-import com.hubers.api.dto.CaseApiDataDTO;
+import com.hubers.api.dto.CaseApiQueryDataDTO;
+import com.hubers.api.dto.CaseApiResDataDTO;
 import com.hubers.api.entity.CaseApiData;
 import com.hubers.api.entity.CasesGroupApiData;
 import com.hubers.api.service.CasesGroupApiService;
@@ -20,28 +21,28 @@ public class CasesGroupAPIController {
     @Autowired
     CasesGroupApiService casesGroupApiService;
 
-    /**
-     * 获取当前用例分组下的用例明细
+    /**动态查询分组下用例字段key
+     * 获取分页数据，有查询条件，有排序API记录
      * */
-    @GetMapping(value = "/api/list")
-    public List<CaseApiData> apiList(Long groupId){
-        return  casesGroupApiService.findCaseApiData(groupId);
+    @GetMapping(value = "/api/key/list")
+    public List<CaseApiData> apiKeyList(CaseApiQueryDataDTO caseApiQueryDataDTO){
+        return  casesGroupApiService.findKey(caseApiQueryDataDTO);
     }
 
     /**静态查询
-     * 根据关键字查询
+     * 根据关键字查询API记录
      * */
     @GetMapping(value = "/api/value/list")
     public List<CaseApiData> apiValueList(Long groupId ,String value){
         return casesGroupApiService.findValue(groupId,value);
     }
 
-    /**动态查询分组下用例字段key
-     * 获取分页数据，有查询条件，有排序
+    /**
+     * 获取当前用例分组下的用例明细
      * */
-    @GetMapping(value = "/api/key/list")
-    public List<CaseApiData> apiKeyList(CaseApiDataDTO caseApiDataDTO){
-        return  casesGroupApiService.findKey(caseApiDataDTO);
+    @GetMapping(value = "/api/list")
+    public List<CaseApiResDataDTO> apiList(Long groupId){
+        return  casesGroupApiService.findCaseApiData(groupId);
     }
 
     /**
@@ -70,8 +71,8 @@ public class CasesGroupAPIController {
     /**创建用例分组
      * */
     @PostMapping(value = "/creatgroup")
-    public CasesGroupApiData add(@RequestBody CasesGroupApiData casesGroupApiData){
-        return casesGroupApiService.createGroup(casesGroupApiData);
+    public Map<String,Object> add(@RequestBody CasesGroupApiData casesGroupApiData) throws Exception {
+        return (Map<String, Object>) casesGroupApiService.createGroup(casesGroupApiData);
     }
 
     /**
@@ -82,6 +83,10 @@ public class CasesGroupAPIController {
         return casesGroupApiService.create(reqMap);
     }
 
+
+    /**
+     * 更新用例分组信息
+     * */
     @PutMapping(value = "/update")
     public CasesGroupApiData update(@Valid @RequestBody CasesGroupApiData casesGroupApiData , BindingResult result){
         if (result.hasErrors()){
@@ -89,6 +94,10 @@ public class CasesGroupAPIController {
         }
         return casesGroupApiService.update(casesGroupApiData);
     }
+
+    /**
+     * 删除用例分组信息
+     * */
     @DeleteMapping(value = "/delete/{id}")
     public String delete(@PathVariable Long id){
         return casesGroupApiService.delete(id);

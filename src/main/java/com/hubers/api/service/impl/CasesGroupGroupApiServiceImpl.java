@@ -2,7 +2,8 @@ package com.hubers.api.service.impl;
 
 import com.hubers.api.dao.CaseApiDao;
 import com.hubers.api.dao.CasesGroupApiDao;
-import com.hubers.api.dto.CaseApiDataDTO;
+import com.hubers.api.dto.CaseApiQueryDataDTO;
+import com.hubers.api.dto.CaseApiResDataDTO;
 import com.hubers.api.entity.CaseApiData;
 import com.hubers.api.entity.CasesGroupApiData;
 import com.hubers.api.service.CasesGroupApiService;
@@ -13,10 +14,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 @Service
 public class CasesGroupGroupApiServiceImpl implements CasesGroupApiService {
@@ -35,20 +33,25 @@ public class CasesGroupGroupApiServiceImpl implements CasesGroupApiService {
         PageRequest pageRequest = PageRequest.of((page-1)*rows,rows);
         return casesGroupApiDao.findAll(pageRequest);
     }
-
-    /**
-     * 新建测试分组
-     * */
-    @Override
-    public CasesGroupApiData createGroup(CasesGroupApiData casesGroupApiData) {
-        CasesGroupApiData save = casesGroupApiDao.save(casesGroupApiData);
-        return save;
-    }
     /**查询当前用例分组下的用例明细
      *
+     *
      * @return*/
-    public List<CaseApiData> findCaseApiData(Long groupId){
-        return caseAPIDao.findByGroupId(groupId);
+    public List<CaseApiResDataDTO> findCaseApiData(Long groupId){
+
+        List<CaseApiResDataDTO> resDataDTOList  = new ArrayList<>();
+        List<CaseApiData> apiDataList = caseAPIDao.findByGroupId(groupId);
+
+        apiDataList.forEach(caseApiData -> {
+            CaseApiResDataDTO resDataDTO = new CaseApiResDataDTO(caseApiData.getUrl(), caseApiData.getHttpMethod(), caseApiData.getHeader(), caseApiData.getParamType());
+            try {
+                resDataDTO.setBody(JsonUtils.json2map(caseApiData.getBody()));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            resDataDTOList.add(resDataDTO);
+        });
+        return resDataDTOList;
     }
 
     /**静态查询
@@ -64,8 +67,8 @@ public class CasesGroupGroupApiServiceImpl implements CasesGroupApiService {
      * */
 
     @Override
-    public List<CaseApiData> findKey(CaseApiDataDTO caseApiDataDTO) {
-        return caseAPIDao.findKey(caseApiDataDTO,false,caseApiDataDTO.getSort(),caseApiDataDTO.getOrder());
+    public List<CaseApiData> findKey(CaseApiQueryDataDTO caseApiQueryDataDTO) {
+        return caseAPIDao.findKey(caseApiQueryDataDTO,false, caseApiQueryDataDTO.getSort(), caseApiQueryDataDTO.getOrder());
     }
     /**
      * 用例分组名称查询
@@ -74,6 +77,26 @@ public class CasesGroupGroupApiServiceImpl implements CasesGroupApiService {
     public List<CasesGroupApiData> findName(String groupName) {
         List<CasesGroupApiData> byGroupnameLike = casesGroupApiDao.findByGroupnameLike("%"+groupName+"%");
         return byGroupnameLike;
+    }
+
+
+    /**
+     * 新建测试分组
+     * */
+    @Override
+    public Map<String, Object> createGroup(CasesGroupApiData casesGroupApiData) throws Exception {
+        if(casesGroupApiData.getGroupname() != null){
+            CasesGroupApiData save = casesGroupApiDao.save(casesGroupApiData);
+            Map<String,Object> map = new HashMap<>();
+            map.put("code","200");
+            map.put("message","success");
+            map.put("result",save);
+            return  map;
+        }
+        return JsonUtils.json2map("{\n" +
+                "\n" +
+                "    \"提示语\":\"请求参数有误，请检查\"\n" +
+                "}");
     }
 
     @Override
