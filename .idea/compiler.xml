@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="interface-framework" />
         <module name="Hubers" />
+        <module name="starthubers" />
         <module name="test" />
         <module name="Interface-AutoTest" />
       </profile>
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Hubers" options="-parameters" />
       <module name="interface-framework" options="-parameters" />
+      <module name="starthubers" options="-parameters" />
     </option>
   </component>
 </project>
