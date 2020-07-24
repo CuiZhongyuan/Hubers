@@ -1,50 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:dev" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="c8772553-6c0e-45c2-b14b-c6bcdf2cea4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/com.hubers/log_2020-07-22.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dto/CaseApiResDataDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/Log4jUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubers/utils/SendEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubers/api/controller/CasesGroupAPIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/controller/CasesGroupAPIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/CaseApiDaoCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/CaseApiDaoCustom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/impl/CaseApiDaoCustomImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dao/impl/CaseApiDaoCustomImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubers/api/dto/CaseApiDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/dto/CaseApiQueryDataDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubers/api/entity/CaseApiData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/entity/CaseApiData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/CasesGroupApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/CasesGroupApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/impl/CasesGroupGroupApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hubers/api/service/impl/CasesGroupGroupApiServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -54,8 +33,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Kotlin File" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -67,8 +46,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -98,7 +81,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582855871398" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../HttpClientUtils/HttpClient" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -108,8 +91,8 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.interfacetest.testng.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\00_3IdeaProjects\interface-test01\src\main\resources\mock\sample" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\00_3IdeaProjects\gitHubers\Hubers\src\main\java" />
@@ -119,14 +102,14 @@
       <recent name="F:\00_3IdeaProjects\interface-test01\src\main\java\com\interfaceproject\listener" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hubers.utils" />
       <recent name="com.interfaceproject.controller" />
       <recent name="com.interfaceproject.utils" />
       <recent name="com.interfacetest.listener" />
       <recent name="interfacetest.listener" />
+      <recent name="com.interfacetest.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\00_3IdeaProjects\interface-test01\src\main\resources\mock\sample" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.interfacetest.testng.service" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -288,10 +271,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Spring Boot.HubersPlatformApplication">
-    <configuration name="post-requests#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.HubersPlatformApplication (1)">
     <configuration name="rest-api#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
       <method v="2" />
     </configuration>
@@ -304,6 +284,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.interfaceproject.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HubersPlatformApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="starthubers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hubers.HubersPlatformApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -380,20 +373,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.post-requests#1" />
       <item itemvalue="HTTP Request.rest-api#1" />
       <item itemvalue="Spring Boot.HubersPlatformApplication" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.HubersPlatformApplication (1)" />
       <item itemvalue="TestNG.D:/IdeaProjects/interface-test01/src/main/resources/testNG.xml" />
       <item itemvalue="TestNG.InterfaceList.case1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.HubersPlatformApplication (1)" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="TestNG.D:/IdeaProjects/interface-test01/src/main/resources/testNG.xml" />
         <item itemvalue="TestNG.InterfaceList.case1" />
         <item itemvalue="HTTP Request.rest-api#1" />
-        <item itemvalue="HTTP Request.post-requests#1" />
       </list>
     </recent_temporary>
   </component>
@@ -445,11 +438,7 @@
       <workItem from="1587691654556" duration="598000" />
       <workItem from="1587704900140" duration="1204000" />
       <workItem from="1587976274003" duration="4205000" />
-      <workItem from="1595223337981" duration="3419000" />
-      <workItem from="1595294722272" duration="6608000" />
-      <workItem from="1595378937573" duration="11661000" />
-      <workItem from="1595406558970" duration="2087000" />
-      <workItem from="1595469184362" duration="12312000" />
+      <workItem from="1595223337981" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="查询示例">
       <created>1583901627795</created>
@@ -493,42 +482,7 @@
       <option name="project" value="LOCAL" />
       <updated>1595224268911</updated>
     </task>
-    <task id="LOCAL-00007" summary="数据库初始化库名">
-      <created>1595224733549</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1595224733549</updated>
-    </task>
-    <task id="LOCAL-00008" summary="readme">
-      <created>1595224804714</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1595224804714</updated>
-    </task>
-    <task id="LOCAL-00009" summary="readme">
-      <created>1595224879914</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1595224879914</updated>
-    </task>
-    <task id="LOCAL-00010" summary="增加注释说明">
-      <created>1595239645732</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1595239645732</updated>
-    </task>
-    <task id="LOCAL-00011" summary="优化代码">
-      <created>1595389232457</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1595389232457</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,19 +493,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="dev" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -578,105 +520,82 @@
     <MESSAGE value="接口测试-报告模板生成" />
     <MESSAGE value="增加moco类型说明" />
     <MESSAGE value="修改示例" />
-    <MESSAGE value="数据库初始化库名" />
     <MESSAGE value="readme" />
-    <MESSAGE value="增加注释说明" />
-    <MESSAGE value="优化代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595225051954">
+    <state x="473" y="109" key="CommitChangelistDialog2" timestamp="1595224268173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595225051954" />
-    <state x="659" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595493506207">
+    <state x="473" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595224268173" />
+    <state x="970" y="282" key="FileChooserDialogImpl" timestamp="1587690855976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="659" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595493506207" />
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1595403605339">
+    <state x="970" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587690855976" />
+    <state width="1876" height="356" key="GridCell.Tab.0.bottom" timestamp="1595572976687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595403605339" />
-    <state x="314" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595403768944">
+    <state width="1876" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976687" />
+    <state width="1876" height="356" key="GridCell.Tab.0.center" timestamp="1595572976686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="314" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595403768944" />
-    <state x="473" y="109" key="CommitChangelistDialog2" timestamp="1595389231687">
+    <state width="1876" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976686" />
+    <state width="1876" height="356" key="GridCell.Tab.0.left" timestamp="1595572976686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="473" y="109" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595389231687" />
-    <state x="99" y="110" key="DiffContextDialog" timestamp="1595389202182">
+    <state width="1876" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976686" />
+    <state width="1876" height="356" key="GridCell.Tab.0.right" timestamp="1595572976686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="99" y="110" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595389202182" />
-    <state x="970" y="282" key="FileChooserDialogImpl" timestamp="1595487317034">
+    <state width="1876" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976686" />
+    <state width="1876" height="356" key="GridCell.Tab.1.bottom" timestamp="1595572976687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="970" y="282" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595487317034" />
-    <state width="1876" height="412" key="GridCell.Tab.0.bottom" timestamp="1595493595906">
+    <state width="1876" height="356" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976687" />
+    <state width="1876" height="356" key="GridCell.Tab.1.center" timestamp="1595572976687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="412" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595906" />
-    <state width="1876" height="412" key="GridCell.Tab.0.center" timestamp="1595493595905">
+    <state width="1876" height="356" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976687" />
+    <state width="1876" height="356" key="GridCell.Tab.1.left" timestamp="1595572976687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="412" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595905" />
-    <state width="1876" height="412" key="GridCell.Tab.0.left" timestamp="1595493595905">
+    <state width="1876" height="356" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976687" />
+    <state width="1876" height="356" key="GridCell.Tab.1.right" timestamp="1595572976687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="412" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595905" />
-    <state width="1876" height="412" key="GridCell.Tab.0.right" timestamp="1595493595905">
+    <state width="1876" height="356" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976687" />
+    <state width="1876" height="356" key="GridCell.Tab.2.bottom" timestamp="1595572976687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="412" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595905" />
-    <state width="1876" height="412" key="GridCell.Tab.1.bottom" timestamp="1595493595651">
+    <state width="1876" height="356" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976687" />
+    <state width="1876" height="356" key="GridCell.Tab.2.center" timestamp="1595572976687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="412" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595651" />
-    <state width="1876" height="412" key="GridCell.Tab.1.center" timestamp="1595493595651">
+    <state width="1876" height="356" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976687" />
+    <state width="1876" height="356" key="GridCell.Tab.2.left" timestamp="1595572976687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="412" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595651" />
-    <state width="1876" height="412" key="GridCell.Tab.1.left" timestamp="1595493595651">
+    <state width="1876" height="356" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976687" />
+    <state width="1876" height="356" key="GridCell.Tab.2.right" timestamp="1595572976687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="412" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595651" />
-    <state width="1876" height="412" key="GridCell.Tab.1.right" timestamp="1595493595651">
+    <state width="1876" height="356" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595572976687" />
+    <state x="699" y="348" key="Maven.ArtifactSearchDialog" timestamp="1595572865157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="412" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595651" />
-    <state width="1876" height="412" key="GridCell.Tab.2.bottom" timestamp="1595493595652">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="412" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595652" />
-    <state width="1876" height="412" key="GridCell.Tab.2.center" timestamp="1595493595651">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="412" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595651" />
-    <state width="1876" height="412" key="GridCell.Tab.2.left" timestamp="1595493595651">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="412" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595651" />
-    <state width="1876" height="412" key="GridCell.Tab.2.right" timestamp="1595493595652">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1876" height="412" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595493595652" />
+    <state x="699" y="348" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595572865157" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1595223360579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595223360579" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595389240453">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595224278246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595389240453" />
-    <state x="753" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595323945487">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595224278246" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587977749452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="753" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595323945487" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1595399268406">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595399268406" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587977749452" />
   </component>
   <component name="masterDetails">
     <states>
